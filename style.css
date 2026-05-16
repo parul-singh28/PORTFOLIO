@@ -291,6 +291,12 @@ h3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.project-list {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .card,
 .project-card {
   padding: 24px;
@@ -318,7 +324,7 @@ h3 {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  min-height: 280px;
+  min-height: 260px;
 }
 
 .project-card.muted {
@@ -518,6 +524,10 @@ h3 {
   .contact-section,
   .card-grid,
   .card-grid.three,
+  .project-list {
+    grid-template-columns: 1fr;
+  }
+
   .gallery-grid {
     column-count: 2;
   }
