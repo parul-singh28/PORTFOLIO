@@ -200,6 +200,20 @@ h3 {
   padding: clamp(24px, 4vw, 34px);
 }
 
+.profile-photo {
+  aspect-ratio: 1;
+  background:
+    linear-gradient(135deg, rgba(15, 118, 110, 0.12), rgba(36, 48, 79, 0.12));
+  border: 1px solid rgba(222, 214, 202, 0.9);
+  border-radius: 8px;
+  display: block;
+  height: auto;
+  margin-bottom: 24px;
+  object-fit: cover;
+  object-position: center 55%;
+  width: 100%;
+}
+
 .profile-mark {
   align-items: center;
   aspect-ratio: 1;
